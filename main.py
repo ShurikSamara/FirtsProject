@@ -1,19 +1,13 @@
-
-def print_hi(name):
+def print_tuple():
     aTuple = (10, 20, 30, 40)
-    print(aTuple)
+    print(aTuple)  # printing a tuple
 
-    a = aTuple[0]
-    b = aTuple[1]
-    c = aTuple[2]
-    d = aTuple[3]
+    variable_a = aTuple[0]
+    variable_b = aTuple[1]
+    variable_c = aTuple[2]
+    variable_d = aTuple[3]
 
-    print(a, b, c, d)
+    print(variable_a, variable_b, variable_c, variable_d)  # printing variables
 
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-    #
+print_tuple()

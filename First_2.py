@@ -1,10 +1,10 @@
 def compare():
-    tupl_1=(45,45,45,45)
-    print(tupl_1)
-    if tupl_1[0] == tupl_1[1] and tupl_1[0] == tupl_1[2] and tupl_1[0] == tupl_1[3]:
-        return True
-    else : False
+    tuple_1 = (45, 45, 45, 45)
+    print(tuple_1)  # printing a tuple_1
+    if tuple_1[0] == tuple_1[1] and tuple_1[0] == tuple_1[2] and tuple_1[0] == tuple_1[3]:
+        print('True')
+    else:
+        print('False')
 
 
-
-
+compare()
